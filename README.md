@@ -4,9 +4,6 @@ Fullstack project created to automate the bicycle inspection process.
 ## Getting Started
 - Install requirements and run the python file:
 ```bash
-#going to the server directory
-$ cd .\server\
-
 #installing requirements
 $ pip install -r requirements.txt
 
