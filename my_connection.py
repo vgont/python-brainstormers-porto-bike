@@ -23,7 +23,7 @@ class Connection:
 
     def insert_new_bicycle(bicycle: dict):
         bike = Bicycle(bicycle)
-        with Connection('rm550657', '260305') as conn:
+        with Connection('rm98373', '120503') as conn:
             sql = f'''
                 insert into t_cvb_bicicleta 
                 (id_bicicleta, id_cliente, tp_uso_bicicleta, nr_serie_bicicleta, tipo_bicicleta, 
